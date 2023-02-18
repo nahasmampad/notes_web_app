@@ -1,0 +1,117 @@
+/* Navbar */
+
+.Navbar {
+  
+  background-color: black;
+  height: 4rem;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2rem;
+}
+
+.navebar_logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: larger;
+}
+
+.navebar_logo img {
+  filter: invert(100);
+  height: 30px;
+}
+
+/* Input */
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #d3cec7;
+  overflow: hidden;
+}
+
+.input_container {
+  background-color: #e6ded3;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding:  10px;
+  
+}
+
+.input_container input {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 5px;
+  width: 90%;
+}
+
+.input_container div {
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #d3cec7;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  background-color: #e6ded3;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start !important;
+  
+  gap: 5px;
+  padding:  10px;
+}
+
+/* Notes */
+.Notes{
+    width: 250px;
+    background-color: #e6ded3;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    height: fit-content;
+}
+
+.notes_content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.notes_date{
+    font-size: 12px;
+    color: gray;
+}
+
+.notes_delete{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.notes_title{
+  font-weight: bold;
+}
